@@ -68,17 +68,12 @@ pip install -r requirements.txt
 ```
 
 <br><br>
-FOR HIGHER END GPUs if you are having issues, follow specific instructions in the below file to install Sage Attention, Triton, Flash Attention.
+FOR HIGHER END GPUs if you are having issues, follow your GPU specific instructions in the below file --> to install Sage Attention, Triton, Flash Attention.
 
 [Installation Guide - GPU Specific](https://github.com/deepbeepmeep/Wan2GP/blob/main/docs/INSTALLATION.md)
 
 
 <br><br>
-
-
-Optional Setup.
-
-<br>
 
 ## Install Flash Attention (Optional) 
 ```bash
