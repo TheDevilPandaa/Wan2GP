@@ -5,19 +5,19 @@ WAN2GP has some of the best Ai tools - from video, Text to speech, voice cloning
 
 Follow the instructions in the video to install:
 
-#### Clone the repo:
+## Clone the repo:
 
 ```bash
 git clone https://github.com/deepbeepmeep/Wan2GP.git
 ```
 
-#### Go into Wan2GP folder
+## Go into Wan2GP folder
 
 ```bash
 cd Wan2GP
 ```
 
-#### Create a Virtual Environment
+## Create a Virtual Environment
 
 For Python 10 (Not recommended but works perfectly file) -- Install Python 11 or newer for future support
 ```bash
@@ -29,13 +29,13 @@ For Python 11 or newer (Update the version if required)
 conda create -n wan2gp python=3.11.14
 ```
 
-#### Activate the Virtual Environment ( This will need to be executed everytime to run the modals)
+## Activate the Virtual Environment ( This will need to be executed everytime to run the modals)
 
 ```bash
 conda activate wan2gp
 ```
 
-#### Install Pitourch and Cuda
+## Install Pitourch and Cuda
 
 ### Windows Installation for GTX 10XX -16XX Only
 
@@ -125,42 +125,18 @@ pip install https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-
   This installs the CPU-only version of PyTorch.
 
 
-#### Install Requirements
+## Install Requirements
 ```bash
 pip install -r requirements.txt
 ```
 
-#### Install Flash Attention (Optional but recommended) 
+## Install Flash Attention (Optional but recommended) 
 ```bash
 pip install https://github.com/deepbeepmeep/kernels/releases/download/Flash2/flash_attn-2.8.3-cp311-cp311-win_amd64.whl
 ```
 
-
-
+## Run the App
 ```bash
-cd Wan2GP
+python wgp.py
 ```
 
-
-
-```bash
-cd Wan2GP
-```
-
-
-
-```bash
-cd Wan2GP
-```
-
-
-
-```bash
-cd Wan2GP
-```
-
-
-
-```bash
-cd Wan2GP
-```
