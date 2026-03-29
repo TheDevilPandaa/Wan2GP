@@ -168,7 +168,7 @@ pip install -r requirements.txt
 
 <br><br>
 
-## Install Flash Attention (Optional but recommended) 
+## Install Flash Attention (Optional - But you will need to confrim the version according to your cuda and oythin version) 
 ```bash
 pip install https://github.com/deepbeepmeep/kernels/releases/download/Flash2/flash_attn-2.8.3-cp311-cp311-win_amd64.whl
 ```
