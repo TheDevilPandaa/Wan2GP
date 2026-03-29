@@ -1,5 +1,5 @@
 # Wan2GP
-This repo will clone DeepBeepMeep's amazing Wan2gp repo and will provide you with easy to copy and paste links / commands.
+This document will clone DeepBeepMeep's amazing Wan2gp repo and will provide you with easy to copy and paste links / commands.
 
 WAN2GP has some of the best Ai tools - from video, Text to speech, voice cloning, image generation and more. Which will be available to you in one place using this repo.
 
@@ -17,7 +17,6 @@ git clone https://github.com/deepbeepmeep/Wan2GP.git
 ```bash
 cd Wan2GP
 ```
-
 
 
 ## Create a Virtual Environment
@@ -38,6 +37,8 @@ conda create -n wan2gp python=3.11.14
 conda activate wan2gp
 ```
 
+
+
 ## Install Pitourch and Cuda
 
 ### Windows Installation for GTX 10XX -16XX Only
@@ -45,6 +46,8 @@ conda activate wan2gp
 ```bash
 pip install torch==2.6.0+cu126 torchvision==0.21.0+cu126 torchaudio==2.6.0+cu126 --index-url https://download.pytorch.org/whl/cu126
 ```
+
+
 
 ### Windows Installation for RTX QUADRO - 20XX Only
 
@@ -63,6 +66,8 @@ Windows Install Sage1 Attention for RTX QUADRO - 20XX Only
 pip install sageattention==1.0.6
 ```
 
+
+
 ### Windows Installation for RTX 30XX Only
 
 Windows Install PyTorch 2.6.0 with CUDA 12.6 for RTX 30XX Only
@@ -80,6 +85,8 @@ Windows Install Sage2 Attention for RTX 30XX Only
 pip install https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1+cu126torch2.6.0-cp310-cp310-win_amd64.whl
 ```
 
+
+
 ### Installation for RTX 40XX, 50XX Only
 
 Windows Install PyTorch 2.7.1 with CUDA 12.8 for RTX 40XX - 50XX Only
@@ -96,6 +103,8 @@ Windows Install Sage2 Attention for RTX 40XX, 50XX Only
 ```bash
 pip install https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0+cu128torch2.7.1-cp310-cp310-win_amd64.whl
 ```
+
+
 
 ### Installation for 50XX Only Python 3.11, PyTorch 2.10.0 Cuda 13. for NVFP4 optimized kernels
 
@@ -121,6 +130,7 @@ pip install https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-
 ```
 
 
+
 ### **For CPU (if not using GPU):**
   ```bash
   pip install torch
@@ -128,18 +138,36 @@ pip install https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-
   This installs the CPU-only version of PyTorch.
 
 
+
+
 ## Install Requirements
 ```bash
 pip install -r requirements.txt
 ```
+
+
 
 ## Install Flash Attention (Optional but recommended) 
 ```bash
 pip install https://github.com/deepbeepmeep/kernels/releases/download/Flash2/flash_attn-2.8.3-cp311-cp311-win_amd64.whl
 ```
 
+
+
 ## Run the App
 ```bash
 python wgp.py
 ```
+
+
+**AI Modal**<br>
+[Wan 2.1](https://github.com/Wan-Video/Wan2.1)
+
+
+**AI Assistance:** <br>
+[Github Copilot](https://github.com/features/copilot)
+
+
+**Sepcial Thanks:** <br>
+[DeepBeepMeep](https://github.com/deepbeepmeep/)
 
