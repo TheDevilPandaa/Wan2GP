@@ -52,7 +52,7 @@ pip install -r requirements.txt
 conda create -n wan2gp python=3.11.14
 ```
 
-## Activate the Virtual Environment
+### Activate the Virtual Environment
 ```bash
 conda activate wan2gp
 ```
