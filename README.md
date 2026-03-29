@@ -11,11 +11,14 @@ Follow the instructions in the video to install:
 git clone https://github.com/deepbeepmeep/Wan2GP.git
 ```
 
+
 ## Go into Wan2GP folder
 
 ```bash
 cd Wan2GP
 ```
+
+
 
 ## Create a Virtual Environment
 
