@@ -4,7 +4,9 @@ This document will clone DeepBeepMeep's amazing Wan2gp repo and will provide you
 WAN2GP has some of the best Ai tools - from video, Text to speech, voice cloning, image generation and more. Which will be available to you in one place using this repo.
 
 Follow the instructions in the video to install:
+
 <br>
+
 ## Clone the repo:
 
 ```bash
@@ -12,6 +14,7 @@ git clone https://github.com/deepbeepmeep/Wan2GP.git
 ```
 
 <br><br>
+
 ## Go into Wan2GP folder
 
 ```bash
@@ -20,12 +23,15 @@ cd Wan2GP
 
 <br><br>
 ## Create a Virtual Environment
+
 <br>
+
 For Python 10 (Not recommended but works perfectly file) -- Install Python 11 or newer for future support
 ```bash
 conda create -n wan2gp python=3.10.9
 ```
 <br>
+      
 For Python 11 or newer (Update the version if required)
 ```bash
 conda create -n wan2gp python=3.11.14
@@ -40,7 +46,9 @@ conda activate wan2gp
 <br><br>
 
 ## Install Pitourch and Cuda
+
 <br>
+
 ### Windows Installation for GTX 10XX -16XX Only
 ```bash
 pip install torch==2.6.0+cu126 torchvision==0.21.0+cu126 torchaudio==2.6.0+cu126 --index-url https://download.pytorch.org/whl/cu126
@@ -49,17 +57,21 @@ pip install torch==2.6.0+cu126 torchvision==0.21.0+cu126 torchaudio==2.6.0+cu126
 <br><br>
 
 ### Windows Installation for RTX QUADRO - 20XX Only
+
 <br>
+
 Windows Install PyTorch 2.6.0 with CUDA 12.6 for RTX QUADRO - 20XX Only
 ```bash
 pip install torch==2.6.0+cu126 torchvision==0.21.0+cu126 torchaudio==2.6.0+cu126 --index-url https://download.pytorch.org/whl/cu126
 ```
 <br>
+
 Windows Install Triton for RTX QUADRO - 20XX Only
 ```bash
 pip install -U "triton-windows<3.3"
 ```
 <br>
+
 Windows Install Sage1 Attention for RTX QUADRO - 20XX Only
 ```bash
 pip install sageattention==1.0.6
@@ -69,16 +81,19 @@ pip install sageattention==1.0.6
 
 ### Windows Installation for RTX 30XX Only
 <br>
+
 Windows Install PyTorch 2.6.0 with CUDA 12.6 for RTX 30XX Only
 ```bash
 pip install torch==2.6.0+cu126 torchvision==0.21.0+cu126 torchaudio==2.6.0+cu126 --index-url https://download.pytorch.org/whl/cu126
 ```
 <br>
+
 Windows Install Triton for RTX 30XX Only
 ```bash
 pip install -U "triton-windows<3.3"'
 ```
 <br>
+
 Windows Install Sage2 Attention for RTX 30XX Only
 ```bash
 pip install https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-windows/sageattention-2.1.1+cu126torch2.6.0-cp310-cp310-win_amd64.whl
@@ -88,16 +103,19 @@ pip install https://github.com/woct0rdho/SageAttention/releases/download/v2.1.1-
 
 ### Installation for RTX 40XX, 50XX Only
 <br>
+
 Windows Install PyTorch 2.7.1 with CUDA 12.8 for RTX 40XX - 50XX Only
 ```bash
 pip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1 --index-url https://download.pytorch.org/whl/cu128
 ```
 <br>
+
 Windows Install Triton for RTX 40XX, 50XX Only
 ```bash
 pip install -U "triton-windows<3.4"
 ```
 <br>
+
 Windows Install Sage2 Attention for RTX 40XX, 50XX Only
 ```bash
 pip install https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows/sageattention-2.2.0+cu128torch2.7.1-cp310-cp310-win_amd64.whl
@@ -107,21 +125,25 @@ pip install https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-
 
 ### Installation for 50XX Only Python 3.11, PyTorch 2.10.0 Cuda 13. for NVFP4 optimized kernels
 <br>
+
 Create Python 3.11 environment using Conda
 ```bash
 conda create -n wan2gp python=3.11.14
 ```
 <br>
+
 Windows Install PyTorch 2.10.0 with CUDA 13.0 for RTX 50XX Only
 ```bash
 pip install torch==2.10.0 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu130
 ```
 <br>
+
 Windows Install Triton for RTX 50XX Only
 ```bash
 pip install -U triton-windows
 ```
 <br>
+
 Windows Install Sage2 Attention for RTX 50XX Only
 
 ```bash
