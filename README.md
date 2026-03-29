@@ -181,6 +181,15 @@ python wgp.py
 ```
 <br><br>
 
+# Gallery
+
+![3](https://i.postimg.cc/0yW1XQL4/Qwen-TSS.png)
+![1](https://i.postimg.cc/htyRZjH6/2.png)
+![2](https://i.postimg.cc/pLGMcTgc/3.png)
+
+
+<br><br>
+
 **AI Modal**<br>
 [Wan 2.1](https://github.com/Wan-Video/Wan2.1)
 
