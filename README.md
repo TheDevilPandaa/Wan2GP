@@ -95,6 +95,13 @@ conda uninstall -n wan2gp --all
 ```
 <br><br>
 
+##Update the application (Get latest Version)
+
+git pull
+conda activate wan2gp
+pip install -r requirements.txt
+
+<br><br>
 # Gallery
 
 ![3](https://i.postimg.cc/0yW1XQL4/Qwen-TSS.png)
