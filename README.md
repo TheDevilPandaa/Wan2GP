@@ -95,11 +95,12 @@ conda uninstall -n wan2gp --all
 ```
 <br><br>
 
-##Update the application (Get latest Version)
-
+## Update the application (Get latest Version)
+```bash
 git pull
 conda activate wan2gp
 pip install -r requirements.txt
+```
 
 <br><br>
 # Gallery
